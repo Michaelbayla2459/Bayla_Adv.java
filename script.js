@@ -41,3 +41,18 @@ navLinks.forEach((link) => {
     link.classList.add("activeNH");
   });
 });
+
+const contactForm = document.querySelector(".contactForm");
+
+if (contactForm) {
+  contactForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const email = contactForm.elements.email.value.trim();
+    const message = contactForm.elements.message.value.trim();
+    const subject = encodeURIComponent(`Portfolio contact from ${email}`);
+    const body = encodeURIComponent(`From: ${email}\n\n${message}`);
+
+    window.location.href = `mailto:?subject=${subject}&body=${body}`;
+  });
+}

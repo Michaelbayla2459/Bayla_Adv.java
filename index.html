@@ -81,7 +81,6 @@
         <div class="fsWrap">
           <div class="fsText" id="particles-js">
             <div class="fsTextWrap">
-              <h3>Welcome to my Website!!!!!!</h3>
               <h1>I'm Michael Bayla</h1>
               <div class="fstyping">
                 <span class="fsTextType first-text">A Passionate</span>
@@ -92,19 +91,22 @@
                 intersection of creativity.
               </p>
               <div class="fsSMCon">
-                <a href=""><i class="bx bxl-github"></i></a>
-                <a href=""><i class="bx bxl-linkedin"></i></a>
-                <a href="#"><i class="bx bxl-facebook"></i></a>
-                <a href="#"><i class="bx bxl-twitter"></i></a>
-                <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="https://github.com/Michaelbayla2459" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://facebook.com/Killuaa.01" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <i class="bx bxl-facebook"></i>
+                </a>
+                <a href="https://instagram.com/chael_ua0" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <i class="bx bxl-instagram-alt"></i>
+                </a>
               </div>
               <button type="button" id="dcvbtn">Download CV</button>
             </div>
           </div>
           <div class="fsIMGCon">
             <div class="fsimgWrap">
-              <img src="asset/wilzen.jpg" alt="Wilzen Carl" />
-              
+              <img src="asset/wilzen.jpg" alt="Michael Bayla" />
             </div>
           </div>
         </div>
@@ -115,65 +117,39 @@
           <span>01</span>
           <h2>About Me</h2>
         </div>
-        <p>
-          I'm a 20-year-old web developer passionate about turning ideas into polished, responsive digital experiences.   Through hands-on coding and continuous practice, I focus on writing clean, functional components and building layouts that work seamlessly across devices. Whether I'm structuring a new interface or managing repositories in the terminal, I enjoy the problem-solving process behind making the web feel fast and effortless.
-        </p>
+        <div class="aboutCard">
+          <div class="aboutCopy">
+            <p class="aboutKicker">A LITTLE ABOUT ME</p>
+            <h3>Curious by nature.<br />Building for the web.</h3>
+            <p class="aboutDescription">
+              I'm a graduate of Holy Cross of Davao College (HCDC), where I earned a Bachelor of Science in Information Technology. I'm passionate about building responsive, user-friendly digital experiences and enjoy turning ideas into clean, functional websites. I work with HTML, CSS, JavaScript, Java, and C++, and continue to grow my skills through hands-on projects and learning.
+            </p>
+            <div class="aboutTags" aria-label="Areas of interest">
+              <span>Front-end development</span>
+              <span>Responsive design</span>
+              <span>UI/UX</span>
+            </div>
+            <div class="languageGroup">
+              <p class="languageLabel">Languages</p>
+              <div class="languageButtons" aria-label="Programming languages">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+          <figure class="aboutPortrait">
+            <img src="asset/about-me.jpg" alt="Michael Bayla seated outdoors" />
+          </figure>
+        </div>
       </section>
 
       <section class="contentSection" id="resume">
         <div class="sectionHeading">
           <span>02</span>
           <h2>Resume</h2>
-        </div>
-        <div class="resumeGrid">
-          <div class="resumeColumn">
-            <h3>Education &amp; Experience</h3>
-
-            <h4>Education</h4>
-            <ul class="resumeList">
-              <li>
-                <strong>Bachelor of Science in Information Technology</strong>
-                
-              </li>
-              <li>
-                <strong>Holy Cross Of Davao College / College | 2025 – Present</strong>
-              </li>
-              <li>
-                Focused on web development, UI/UX design principles.
-              </li>
-            </ul>
-
-            <h4>Experience / Practice</h4>
-            <ul class="resumeList">
-              <li>
-                <strong>Front-End Web Developer (Personal &amp; Academic Projects)</strong>
-              </li>
-              
-            </ul>
-          </div>
-
-          <div class="resumeColumn">
-            <h3>Skills &amp; Tools</h3>
-
-            <h4>Core Technologies</h4>
-            <ul class="resumeList">
-              <li><strong>Languages:</strong> HTML, CSS, JavaScript, Java, C++</li>
-              <li>
-                <strong>Design &amp; Layout:</strong> Responsive Web Design,
-                CSS Grid &amp; Flexbox, UI/UX Wireframing
-              </li>
-              <li>
-                <strong>Tools &amp; Workflow:</strong> Git, GitHub, Visual Studio
-                Code.
-              </li>
-            </ul>
-
-            <h4>Download Action</h4>
-            <p class="resumeDownload">
-              Add a downloadable button styled just like your
-              <strong>Download CV</strong> button at the bottom of this section.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -200,7 +176,44 @@
           <h2>Contact</h2>
         </div>
         <p>Interested in working together? Let's connect.</p>
-        <button type="button" class="contactButton">Send an Email</button>
+        <form class="contactForm">
+          <label for="contactEmail">Email</label>
+          <input
+            type="email"
+            id="contactEmail"
+            name="email"
+            placeholder="Your email address"
+            required
+          />
+
+          <label for="contactMessage">Message</label>
+          <textarea
+            id="contactMessage"
+            name="message"
+            placeholder="Write your message"
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit" class="contactButton">Send an Email</button>
+        </form>
+        <div class="contactSocials">
+          <h3>Find me on</h3>
+          <div class="contactSocialLinks">
+            <a href="https://github.com/Michaelbayla2459" target="_blank" rel="noopener noreferrer">
+              <i class="bx bxl-github" aria-hidden="true"></i>
+              <span>GitHub</span>
+            </a>
+            <a href="https://instagram.com/chael_ua0" target="_blank" rel="noopener noreferrer">
+              <i class="bx bxl-instagram-alt" aria-hidden="true"></i>
+              <span>Instagram</span>
+            </a>
+            <a href="https://facebook.com/Killuaa.01" target="_blank" rel="noopener noreferrer">
+              <i class="bx bxl-facebook" aria-hidden="true"></i>
+              <span>Facebook</span>
+            </a>
+          </div>
+        </div>
       </section>
     </div>
 
